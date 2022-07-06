@@ -108,6 +108,10 @@ body {
     padding: 50px 0;
 }
 
+#blue-bg {
+    background-color: rgb(225, 225, 252);
+}
+
 .example-plan {
     width: 26%;
     margin-left: 3%;
