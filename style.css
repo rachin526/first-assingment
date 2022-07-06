@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.header-area {
+    background-image: url(images/donation16.jpg);
+}
+
+.header-content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.header-content p {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.button-link {
+    color: white;
+    background-image: linear-gradient(tomato, brown);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 7px;
+    box-shadow: 1px 5px 25px grey
+}
+
+.donation-area {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.donation-area h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.donation-area p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.amount-area {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.amount {
+    width: 20%;
+    background-color: rgb(245, 245, 245);
+    margin-left: 15px;
+    border-radius: 7px;
+}
+
+.amount h2 {
+    text-align: center;
+    color: dimgray;
+    padding: 7px;
+    font-size: 30px;
+}
+
+#common-donation {
+    background-color: rgb(255, 224, 219);
+    border: 3px solid tomato;
+}
+
+#common-donation h2 {
+    color: tomato;
+}
+
+#input-tk {
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    display: block;
+    margin: 0 auto;
+    padding: 7px 300px;
+}
+
+#donate-now {
+    margin: 40px 0;
+    margin-left: -70px;
+    display: inline-block;
+}
